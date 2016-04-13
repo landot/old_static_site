@@ -141,7 +141,7 @@ var boxplot_Layout = {
     width: 350,
     height: 500,
     yaxis: {
-    title: 'Minimum inhibitory concentration (MIC)',
+    title: 'Mean Minimum inhibitory concentration (MIC)',
     zeroline: false
   }
 }
