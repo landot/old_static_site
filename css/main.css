@@ -1,0 +1,36 @@
+#myDiv {
+    width: 100%;
+    height: 100vh;
+}
+
+#graph2 {
+    float: left;
+    border-top: 0px;
+}
+
+#graph3 {
+    float: left;
+}
+
+#graph4 {
+    margin-top: 80px;
+}
+
+#boxplot_title {
+    text-align: +500px;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    border: 0px;
+    margin: 0px;
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
+#title {
+    margin: 0px;
+    font-size: 40px;
+    text-align: center;
+}

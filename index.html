@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>YOUR SITE TITLE</title>
-  <!-- Add some style to your site, see http://getbootstrap.com for details -->
-  <link rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>INFO 474 Plotly Graphics</title>
+    <link rel="shortcut icon" type="image/png" href="../res/graphs.png">
+
+    <!-- Includes plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="bacteria.json"></script>
+
+    <link rel="stylesheet" href="./css/main.css">
+    <p id="title">INFO 474 Plotly - Tim Landowski</p>
 </head>
 <body>
-  <h1>YOUR SITE TITLE</h1>
-  <p>Your text blahblahbhalbha</p>
-  <p>Another paragraph!  Maybe more text!</p>
+    <div id="graph1"></div>
+    <div id="graph4"></div>
+    <div id="boxplots">
+        <p>Antibiotic Effect on Positive and Negative Gram Staining</p>
+        <div id="graph2"></div>
+        <div id="graph3"></div>    
+    </div>
+
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
